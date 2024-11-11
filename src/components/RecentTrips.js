@@ -10,23 +10,25 @@ const RecentTrips = () => {
   return (
     <div className="trip">
       <h1>Recent Trips</h1>
-      <p>You can discover unique destination using Google Maps</p>
+      <p>Find out your recent trips here!</p>
 
       <div className="trip-card">
         <RecentTripsData
           tImg={img1}
-          heading="Lorem ipsum dolor sit amet"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+          heading="Bangkok, Thailand"
+          text="Bangkok has a rich history dating back to the 15th century, with the city being founded as a small trading post. Over time, it grew to become the capital of Siam (Thailand’s former name) in 1782. The city is home to numerous iconic temples, palaces, and museums, showcasing a blend of Thai, Chinese, and European architectural styles. Notable landmarks include the Grand Palace, Wat Phra Kaew, Wat Pho, and Wat Arun."
         />
         <RecentTripsData
           tImg={img2}
-          heading="Lorem ipsum dolor sit amet"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+          heading="Rome, Italy"
+          text="Rome, the Eternal City, is the capital of Italy and a treasure trove of ancient history, art, architecture, and culture. Located in the central part of the Italian peninsula, on the Tiber River, Rome is home to approximately 2.8 million residents.
+
+"
         />
         <RecentTripsData
           tImg={img3}
-          heading="Lorem ipsum dolor sit amet"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+          heading="Andaman and Nicobar Islands"
+          text="The Andaman and Nicobar Islands are a union territory of India, comprising 836 islands, of which only 31 are inhabited. The islands are grouped into two main clusters: the northern Andaman Islands and the southern Nicobar Islands, separated by a 150 km wide channel."
         />
       </div>
     </div>
